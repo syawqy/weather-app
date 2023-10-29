@@ -1,6 +1,6 @@
 Here is the README.md file in Markdown format:
 
-# Weather Lookup Web App
+# Weather Web App
 
 This is a simple web application built with .NET Core that allows users to look up the current weather for a given city.
 
