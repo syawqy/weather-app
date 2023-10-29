@@ -1,5 +1,3 @@
-Here is the README.md file in Markdown format:
-
 # Weather Web App
 
 This is a simple web application built with .NET Core that allows users to look up the current weather for a given city.
@@ -47,7 +45,7 @@ dotnet run
 
 ## Usage
 
-On the home page, choose a country then choos a city name, the weather information will be showed quickly after that.
+On the home page, choose a country then choose a city name, the weather information will be showed quickly after that.
 
 
 ## License
