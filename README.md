@@ -13,8 +13,6 @@ This is a simple web application built with .NET Core that allows users to look 
 ## Technologies Used
 
 - .NET Core 3.1
-- Entity Framework Core
-- SQL Server Express
 - OpenWeatherMap API
 
 ## Getting Started
@@ -22,30 +20,34 @@ This is a simple web application built with .NET Core that allows users to look 
 1. Clone the repository
 
 ```
-git clone https://github.com/yourname/weather-lookup.git
+git clone https://github.com/syawqy/weather-app.git
 ```
 
 2. Navigate to project folder
 
 ```
-cd weather-lookup
+cd weather-app
 ```
 
-3. Build and run the project
+3. Add API key from openweathermap http://api.openweathermap.org/ and add it to appsettings.json
+
+```
+"WeatherAPIKey": "YOURAPIKEY",
+```
+
+4. Build and run the project
 
 ```
 dotnet build
 dotnet run
 ```
 
-4. Open a browser to `http://localhost:5000` to view the web app
+5. Open a browser to view the web app
 
 
 ## Usage
 
-On the home page, enter a city name in the search box and click "Lookup" to view current weather information.
-
-Valid city names are required, invalid or blank entries will display an error message.
+On the home page, choose a country then choos a city name, the weather information will be showed quickly after that.
 
 
 ## License
